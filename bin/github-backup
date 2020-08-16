@@ -2,6 +2,7 @@
 
 import os
 
+from github_backup.args import parse_args
 from github_backup.github_backup import (
     backup_account,
     backup_repositories,
@@ -10,7 +11,6 @@ from github_backup.github_backup import (
     get_authenticated_user,
     log_info,
     mkdir_p,
-    parse_args,
     retrieve_repositories,
 )
 
